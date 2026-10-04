@@ -47,6 +47,7 @@ button { cursor: pointer; }
 }
 .page-header h1 {
   margin: 0;
+  color: var(--green-dark);
   font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
   font-size: 34px;
   font-weight: 500;
@@ -66,6 +67,7 @@ button { cursor: pointer; }
 .card-heading { margin-bottom: 13px; }
 .card-heading h2, .section-heading h2 {
   margin: 0;
+  color: var(--green-dark);
   font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
   font-size: 21px;
   font-weight: 500;
@@ -134,7 +136,7 @@ button { cursor: pointer; }
 .complete-label { flex: 0 0 auto; color: var(--green-dark); font-size: 11px; font-weight: 700; }
 .student-results { display: grid; grid-template-columns: 1fr; }
 .student-result { min-width: 0; padding: 10px 0; border-bottom: 1px solid #e9ece8; }
-.student-result h3 { overflow: hidden; margin: 0 0 4px; font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif; font-size: 13px; font-weight: 700; text-overflow: ellipsis; white-space: nowrap; }
+.student-result h3 { overflow: hidden; margin: 0 0 4px; color: var(--green-dark); font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif; font-size: 13px; font-weight: 700; text-overflow: ellipsis; white-space: nowrap; }
 .result-line { display: flex; justify-content: space-between; gap: 8px; color: var(--muted); font-size: 11px; }
 .result-line strong { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
 .result-bottom { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 4px; }
